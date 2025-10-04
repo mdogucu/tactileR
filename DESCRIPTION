@@ -26,4 +26,4 @@ URL: https://github.com/jooyoungseo/tactileR
 BugReports: https://github.com/jooyoungseo/tactileR/issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 7.3.3

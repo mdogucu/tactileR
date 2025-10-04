@@ -25,7 +25,7 @@ If you are not familiar with what swell form machine is, please refer to \href{h
 A short \href{https://www.youtube.com/watch?v=ClI555l4Z1M}{YouTube video} will help you to understand how this function can be employed in conjunction with Swell form machine.
 }
 \examples{
-brl_begin(file='tactile.pdf', pt=11, paper='special', font='BRL')
+brl_begin(file = "tactile.pdf", pt = 11, paper = "special", font = "BRL")
 hist(airquality$Ozone)
 brl_end()
 # The braille ready-to-print pdf version will be created in your working directory.

@@ -33,7 +33,7 @@ brl_end <-
   function() {
 
     # Body code Starts here
-    showtext::showtext.end()
+    showtext::showtext_end()
     grDevices::dev.off()
 
     # Body code ends

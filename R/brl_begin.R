@@ -38,13 +38,13 @@ brl_begin <-
 
     # Body code Starts here
     # Preparing braille font
-    sysfonts::font.add("BRL", system.file("fonts/BRAILLE1.ttf", package = "tactileR"))
-    sysfonts::font.add("SWL", system.file("fonts/Swell-Braille.ttf", package = "tactileR"))
-    sysfonts::font.add("TIMES", system.file("fonts/times.ttf", package = "tactileR"))
+    sysfonts::font_add("BRL", system.file("fonts/BRAILLE1.ttf", package = "tactileR"))
+    sysfonts::font_add("SWL", system.file("fonts/Swell-Braille.ttf", package = "tactileR"))
+    sysfonts::font_add("TIMES", system.file("fonts/times.ttf", package = "tactileR"))
 
     # Generating Braille PDF
     grDevices::pdf(file, pointsize = pt, paper = paper)
-    showtext::showtext.begin()
+    showtext::showtext_begin()
     # Optimizing graphic size
     graphics::par(cex = 1.2, cex.main = 1.2, cex.lab = 1.2, cex.axis = 1.2, cex.sub = 1.2, mar = c(5, 5, 3, 2), pch = 20, family = font)
 

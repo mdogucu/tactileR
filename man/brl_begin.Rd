@@ -4,8 +4,7 @@
 \alias{brl_begin}
 \title{Generate and optimize a braille-embedded ready-to-print pdf file for swell form machine or braille embosser}
 \usage{
-brl_begin(file = "tactile.pdf", pt = 11, paper = "special",
-  font = "BRL")
+brl_begin(file = "tactile.pdf", pt = 11, paper = "special", font = "BRL")
 }
 \arguments{
 \item{file}{A character string giving the filename where the image is to be saved. The default file name is "tactile.pdf" if not given.}
@@ -35,7 +34,7 @@ If you are not familiar with what swell form machine is, please refer to \href{h
 A short \href{https://www.youtube.com/watch?v=ClI555l4Z1M}{YouTube video} will help you to understand how this function can be employed in conjunction with Swell form machine.
 }
 \examples{
-brl_begin(file='tactile.pdf', pt=11, paper='special', font='BRL')
+brl_begin(file = "tactile.pdf", pt = 11, paper = "special", font = "BRL")
 hist(airquality$Ozone)
 brl_end()
 # The braille ready-to-print pdf version will be created in your working directory.
